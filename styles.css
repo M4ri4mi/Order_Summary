@@ -1,0 +1,123 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 152px auto;
+}
+
+.container {
+  width: 327px;
+  height: 567px;
+  background: white;
+  border-radius: 20px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #717fa6;
+}
+
+.plan {
+  background: #f7f9ff;
+  border-radius: 11px;
+  width: 279px;
+  height: 81px;
+  display: flex;
+  margin: 0 auto;
+}
+.icon {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.annual {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1f2e55;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 92px;
+  font-weight: bold;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #717fa6;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 96px;
+}
+.change {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #382ae1;
+  float: right;
+  margin-left: 125px;
+  margin-top: 39px;
+}
+
+.change:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #766cf1;
+}
+
+.proceed {
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  width: 279px;
+  height: 50px;
+  margin: 32px auto;
+}
+.proceed:hover {
+  cursor: pointer;
+  background: #766cf1;
+}
+
+h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 15px 64px;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  padding: 15px;
+}
+
+h3:hover {
+  cursor: pointer;
+  color: #1f2e55;
+}
+.hero {
+  max-width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
